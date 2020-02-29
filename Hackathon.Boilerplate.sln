@@ -1,7 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29709.97
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
@@ -33,6 +32,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{2760CB6E-BAA6-413E-A2AD-2B649AD3659C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.Forms", "src\Feature\Forms\Hackathon.Boilerplate.Feature.Forms.csproj", "{CC5B3BC6-353D-4F67-8809-65D881184800}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hackathon.Boilerplate.Foundation.Serialization", "Hackathon.Boilerplate.Foundation.Serialization", "{F31DA239-2FB5-4D94-BB9D-6DC43B452468}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Foundation.Serialization", "src\Foundation\Hackathon.Boilerplate.Foundation.Serialization\Hackathon.Boilerplate.Foundation.Serialization.csproj", "{0F46BCE8-8D2D-4D6E-A869-770176580FF8}"
@@ -40,6 +40,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hackathon.Boilerplate.Project.Hackathon", "Hackathon.Boilerplate.Project.Hackathon", "{05673051-DC17-4A57-B4DF-871BA2990A6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Project.Hackathon", "src\Project\Hackathon.Boilerplate.Project.Hackathon\Hackathon.Boilerplate.Project.Hackathon.csproj", "{C7B36EB0-1F04-4656-B4BF-F60F34422FD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentManagement", "ContentManagement", "{463187DA-35A2-40D3-8E92-A87CAA721773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Foundation.ContentManagement", "src\Foundation\ContentManagement\Hackathon.Boilerplate.Foundation.ContentManagement.csproj", "{FAB89E14-6BBE-49CC-9826-4D2E0C26182C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{C7B36EB0-1F04-4656-B4BF-F60F34422FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B36EB0-1F04-4656-B4BF-F60F34422FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B36EB0-1F04-4656-B4BF-F60F34422FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB89E14-6BBE-49CC-9826-4D2E0C26182C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB89E14-6BBE-49CC-9826-4D2E0C26182C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB89E14-6BBE-49CC-9826-4D2E0C26182C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB89E14-6BBE-49CC-9826-4D2E0C26182C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,8 +79,11 @@ Global
 		{0F46BCE8-8D2D-4D6E-A869-770176580FF8} = {F31DA239-2FB5-4D94-BB9D-6DC43B452468}
 		{05673051-DC17-4A57-B4DF-871BA2990A6D} = {15D97D61-D597-42EC-B7E9-E9EC8130E630}
 		{C7B36EB0-1F04-4656-B4BF-F60F34422FD5} = {05673051-DC17-4A57-B4DF-871BA2990A6D}
+		{463187DA-35A2-40D3-8E92-A87CAA721773} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{FAB89E14-6BBE-49CC-9826-4D2E0C26182C} = {463187DA-35A2-40D3-8E92-A87CAA721773}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
 	EndGlobalSection
 EndGlobal
