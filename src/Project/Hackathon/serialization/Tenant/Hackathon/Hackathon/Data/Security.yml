@@ -1,0 +1,18 @@
+﻿---
+ID: "99e9b463-4b99-4419-b30b-4d5a41d3bd8d"
+Parent: "106c489f-2d36-4549-94af-0407f41ef6c5"
+Template: "33077d51-ebad-4d1c-b4a8-3b79f51dba13"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Security
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021349Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

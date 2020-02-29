@@ -1,0 +1,18 @@
+﻿---
+ID: "a19e8ccb-29db-4813-8330-d250b93516f3"
+Parent: "106c489f-2d36-4549-94af-0407f41ef6c5"
+Template: "948bf196-d6eb-4247-be9c-f5eb5e1160d7"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Playlists
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021332Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

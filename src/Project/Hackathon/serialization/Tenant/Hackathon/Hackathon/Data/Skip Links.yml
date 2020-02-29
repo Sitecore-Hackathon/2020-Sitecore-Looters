@@ -1,0 +1,18 @@
+﻿---
+ID: "c3338029-9956-4582-8b34-aae7ca238f7f"
+Parent: "106c489f-2d36-4549-94af-0407f41ef6c5"
+Template: "1dc97094-8357-4335-8df5-3349193b1e02"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Skip Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021313Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

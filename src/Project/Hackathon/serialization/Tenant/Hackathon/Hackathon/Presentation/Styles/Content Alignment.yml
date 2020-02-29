@@ -1,0 +1,23 @@
+﻿---
+ID: "1f026cc5-c62b-4d4a-9439-edfd59bad8f4"
+Parent: "d624ea86-1797-46f7-abb0-9e75c8ea4356"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Styles/Content Alignment
+DB: master
+BranchID: "5edf676a-2fdd-418a-8c56-cb465ee16e20"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C29CA95D-6B94-4214-A90A-AB34E713D053}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021310Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

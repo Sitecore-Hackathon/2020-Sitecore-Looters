@@ -1,0 +1,19 @@
+﻿---
+ID: "7f82b583-5513-460f-93b1-194bb6eb8f7a"
+Parent: "648a7f26-02b6-4255-9b3d-fb77fc5ddd5f"
+Template: "3d55c326-3353-48cd-bedc-e8ae0cb9ef4d"
+Path: /sitecore/content/Hackathon/Hackathon/Settings/Site Grouping/Hackathon/CORS
+DB: master
+BranchID: "f0e39dc1-6a4f-41ed-b0fe-b65bf09a1745"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B6DAB7A0-4F89-4FF1-A1F8-683C1077162A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021325Z

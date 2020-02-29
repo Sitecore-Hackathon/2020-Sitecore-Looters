@@ -1,0 +1,18 @@
+﻿---
+ID: "fce155ce-d3b9-4c85-944b-9e807e868277"
+Parent: "106c489f-2d36-4549-94af-0407f41ef6c5"
+Template: "a13a1b91-fd2b-494b-9086-008852175b0a"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Carousels
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021315Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

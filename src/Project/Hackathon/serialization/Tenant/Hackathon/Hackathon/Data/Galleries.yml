@@ -1,0 +1,18 @@
+﻿---
+ID: "ed8b8cbf-7b8c-4f00-9143-829474a5bbf4"
+Parent: "106c489f-2d36-4549-94af-0407f41ef6c5"
+Template: "83db28a0-f7f6-42fc-ad48-d0a2d4b644d6"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Galleries
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021331Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
