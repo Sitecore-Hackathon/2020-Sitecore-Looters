@@ -1,0 +1,14 @@
+﻿---
+ID: "898e667b-9c36-481c-bc04-c7be9e3cf7d0"
+Parent: "e4ff538c-ac66-49ee-a913-b898bb92eb0d"
+Template: "e4ff538c-ac66-49ee-a913-b898bb92eb0d"
+Path: /sitecore/templates/Project/Hackathon/Page Types/Content Page/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T172239Z

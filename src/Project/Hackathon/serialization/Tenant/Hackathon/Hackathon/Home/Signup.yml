@@ -1,7 +1,7 @@
 ﻿---
 ID: "152089f3-fbb7-428d-980b-58f1607d38ce"
 Parent: "8777b0c6-632b-4935-9dc9-302f4740f165"
-Template: "13bf2a3b-f41c-47af-94c9-4610aa036b19"
+Template: "0bae3bfc-6b0d-4482-96cf-f5937bc3c657"
 Path: /sitecore/content/Hackathon/Hackathon/Home/Signup
 DB: master
 SharedFields:
@@ -19,7 +19,7 @@ SharedFields:
           s:ds="{28296BB1-A939-40D2-898D-36DA256144CC}"
           s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
           s:par=""
-          s:ph="/main/sitecoreFormsWrapper-1" />
+          s:ph="main" />
         <r
           uid="{CF97B606-6613-4BEE-B7C9-8C40D1108ED8}"
           p:after="*[1=2]"
@@ -33,6 +33,20 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CF97B606-6613-4BEE-B7C9-8C40D1108ED8}">
+              <p:d />
+            </r>
+          </d>
+        </r>
     - ID: "0cd046d4-09cf-4403-a05c-a8ba1fd09e74"
       Hint: Title
       Value: Signup
