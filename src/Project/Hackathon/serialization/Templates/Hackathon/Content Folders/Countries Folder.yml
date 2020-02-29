@@ -2,7 +2,7 @@
 ID: "4ec77166-c3b4-42c7-9683-a0596b2433e8"
 Parent: "717064b4-f0c9-4653-a282-5f0a3ac91a10"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Hackathon/Folders/Countries Folder
+Path: /sitecore/templates/Project/Hackathon/Content Folders/Countries Folder
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

@@ -1,0 +1,14 @@
+﻿---
+ID: "0e13e0b8-d8d5-43ce-a041-58eaad97f8b6"
+Parent: "d9c827db-39ec-41c1-9de1-3ca5b3e03ecc"
+Template: "2caa1d66-a692-4f5d-8445-cf61ac2987be"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Topics/2020 Topics/Topic 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T190702Z

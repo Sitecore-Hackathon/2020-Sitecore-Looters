@@ -2,7 +2,7 @@
 ID: "717064b4-f0c9-4653-a282-5f0a3ac91a10"
 Parent: "c50afd9a-9028-4437-9299-4baf065ba753"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Project/Hackathon/Folders
+Path: /sitecore/templates/Project/Hackathon/Content Folders
 DB: master
 Languages:
 - Language: en

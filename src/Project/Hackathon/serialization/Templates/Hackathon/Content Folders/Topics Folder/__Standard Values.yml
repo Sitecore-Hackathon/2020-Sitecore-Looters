@@ -1,0 +1,25 @@
+﻿---
+ID: "938b667a-2baa-4d0f-94d7-65173a235649"
+Parent: "b9aec2c4-3d9a-4bea-b15f-6f18fce786d5"
+Template: "b9aec2c4-3d9a-4bea-b15f-6f18fce786d5"
+Path: /sitecore/templates/Project/Hackathon/Content Folders/Topics Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {2CAA1D66-A692-4F5D-8445-CF61AC2987BE}
+    {B9AEC2C4-3D9A-4BEA-B15F-6F18FCE786D5}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T190124Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

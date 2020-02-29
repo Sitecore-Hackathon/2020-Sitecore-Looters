@@ -1,20 +1,20 @@
 ﻿---
-ID: "cad37ab3-044c-42dc-b40a-6797f55f3008"
+ID: "2caa1d66-a692-4f5d-8445-cf61ac2987be"
 Parent: "7adf1ef6-c2d3-44b1-abf8-e3c0205c7b13"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Hackathon/Content Types/Country
+Path: /sitecore/templates/Project/Hackathon/Content Types/Topic
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/moon.png
+  Value: Office/32x32/bookmark.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{7C3670CF-F52B-44B9-9D53-F004662725DD}"
+  Value: "{3BB5CA7A-85A7-4CED-B8E0-94C3345BF565}"
 Languages:
 - Language: en
   Versions:
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20190423T152503Z
+      Value: 20200229T190031Z
