@@ -1,0 +1,25 @@
+﻿---
+ID: "ab3542dc-5227-4515-8196-717cce4f5785"
+Parent: "ac2740d3-f33c-40a0-9064-2c09ba0df73e"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/Hackathon/Hackathon/Newsletter-form/SubscriptionPage/Description"
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: D7EC90F55CE241E096F37A9A0EF52CA0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T032824Z
+    - ID: "9666782b-21bb-40ce-b38f-8f6c53fa5070"
+      Hint: Text
+      Value: Use the form below to signup to our mailing list. The Hackathon updates will be sent out on a weekly basis, no more than 1 email per week. The email addresses will not be sold or used for any other purpose other than the Sitecore Hackathon related activities.

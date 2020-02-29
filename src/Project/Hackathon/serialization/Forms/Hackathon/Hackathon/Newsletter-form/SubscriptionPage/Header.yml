@@ -1,0 +1,31 @@
+﻿---
+ID: "aad207fa-0183-4a08-a64a-71b730e996bb"
+Parent: "ac2740d3-f33c-40a0-9064-2c09ba0df73e"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: "/sitecore/Forms/Hackathon/Hackathon/Newsletter-form/SubscriptionPage/Header"
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: C7177BA3FD1D456893E3B79B33D5FDA4
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c6caa979-c3ac-4ffc-861e-2961f5fc3c48"
+  Hint: Html Tag
+  Value: h1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T032823Z
+    - ID: "9666782b-21bb-40ce-b38f-8f6c53fa5070"
+      Hint: Text
+      Value: Mailing List

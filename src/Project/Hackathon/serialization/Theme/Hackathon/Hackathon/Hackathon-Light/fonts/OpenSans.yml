@@ -1,0 +1,18 @@
+﻿---
+ID: "1fc098f8-8c1b-4602-9ee0-4834ab7f6bfe"
+Parent: "479154b9-32de-48e7-a5b1-c20dd6692ee0"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Themes/Hackathon/Hackathon/Hackathon-Light/fonts/OpenSans"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160624T115402Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

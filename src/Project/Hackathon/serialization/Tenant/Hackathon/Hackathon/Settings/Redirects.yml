@@ -1,0 +1,18 @@
+﻿---
+ID: "5455e79f-da30-40e1-9720-1c16958e78ad"
+Parent: "81564c72-7463-462d-9f3e-62d637ce5eda"
+Template: "e1cf805e-7f49-4ec9-a25a-182dc798cb5f"
+Path: /sitecore/content/Hackathon/Hackathon/Settings/Redirects
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021303Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

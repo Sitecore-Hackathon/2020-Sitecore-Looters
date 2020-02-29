@@ -1,0 +1,22 @@
+﻿---
+ID: "fb38fd05-d22b-4b9c-a115-af069e8c450b"
+Parent: "721de3a1-92a5-4c21-9524-e8a68d17c049"
+Template: "4c1dc3cf-36d2-4484-ba4e-40af34d01e95"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Rendering Variants/JSON Content
+DB: master
+BranchID: "1c28cde5-00f2-4392-833f-674b06bc9c67"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_gear.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{74E4A451-8104-4479-9E71-2FE0A46E22DD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021326Z

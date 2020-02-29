@@ -1,0 +1,22 @@
+﻿---
+ID: "328e816b-ffa8-421e-bdf7-c1b928e2ad3c"
+Parent: "17433f0b-f2bd-4549-b0a7-3d645be8cf2b"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: "/sitecore/Forms/Hackathon/Hackathon/Newsletter-form/SubscriptionAddedPage"
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 0D6FC23B9C5145E1BD66AF0F5BB28CBE
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T032824Z

@@ -1,0 +1,29 @@
+﻿---
+ID: "76d214b3-dc79-4e5b-b5b6-e6361649dcf1"
+Parent: "c417061c-25db-4d84-969b-b23377943ef7"
+Template: "6892655e-8139-47d4-9c37-ea7b3b034d4a"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Page Designs
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b13BF2A3B-F41C-47AF-94C9-4610AA036B19%7d%3d%257BB783AD5C-AE14-4210-A743-BE2B8395BDB8%257D%26%7bBF3EEA97-75B0-4175-9C0B-0C178F515E4D%7d%3d%257BB783AD5C-AE14-4210-A743-BE2B8395BDB8%257D"
+- ID: "c0c88e34-d7e6-46a0-b84f-b0a432d11642"
+  Hint: Theme
+  Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257BB43D07BD-61D5-448F-9323-8B6ACAD4F3C4%257D"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5D5CE43E-D5C6-4C53-89BC-36285DDE8EC9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021258Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
