@@ -1,8 +1,8 @@
 ﻿---
-ID: "5baf5e8c-b421-4c19-9628-779c645c0604"
+ID: "f0046f4b-dc17-466a-8c8e-0aba3b6fce0b"
 Parent: "1c070d38-5537-4147-a96f-6933d1fd1038"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Hackathon/Page Types/Hackathon Details Page/Content/Entry Submission Requirements
+Path: /sitecore/templates/Project/Hackathon/Page Types/Hackathon Details Page/Content/Prizes
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,7 +10,7 @@ SharedFields:
   Value: Rich Text
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 50
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T191321Z
+      Value: 20200229T193010Z

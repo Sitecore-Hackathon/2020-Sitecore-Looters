@@ -1,0 +1,18 @@
+﻿---
+ID: "1b55ca4f-0a6f-4413-8014-dc6c63912949"
+Parent: "b6c420e9-f031-4c1e-adb8-45d881a2c2f1"
+Template: "4e94ad8e-11d6-4a8c-b210-203fa8bf8a91"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Judges/2020 Judges
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T192727Z

@@ -1,0 +1,21 @@
+﻿---
+ID: "3db91f43-b531-4a42-b65f-d3ef077afa6a"
+Parent: "872d255c-4fd6-428d-b3e0-c1bb4309cb15"
+Template: "b5e9debd-e2a8-48b9-a861-b1211f0fbddf"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Judges/2019 Judges/Judge 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T192757Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "fec9f9ac-c102-4589-8b7d-8597cdb391d3"
+      Hint: Full Name
+      Value: Judge 1

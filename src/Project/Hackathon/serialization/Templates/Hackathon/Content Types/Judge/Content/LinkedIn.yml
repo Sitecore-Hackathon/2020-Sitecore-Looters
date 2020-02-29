@@ -1,16 +1,16 @@
 ﻿---
-ID: "5baf5e8c-b421-4c19-9628-779c645c0604"
-Parent: "1c070d38-5537-4147-a96f-6933d1fd1038"
+ID: "7c399dcc-88da-4dde-b957-42b4d5bdba7c"
+Parent: "d4688c3d-df3f-405b-8055-e64f70eae389"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Hackathon/Page Types/Hackathon Details Page/Content/Entry Submission Requirements
+Path: /sitecore/templates/Project/Hackathon/Content Types/Judge/Content/LinkedIn
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Rich Text
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 50
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T191321Z
+      Value: 20200229T192434Z

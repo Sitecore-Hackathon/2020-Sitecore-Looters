@@ -16,3 +16,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: $name
