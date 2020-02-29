@@ -1,0 +1,71 @@
+﻿---
+ID: "d3184c42-3615-45a5-948f-d270ec721770"
+Parent: "0d3e443b-b994-4132-96d0-35bc7f1f366b"
+Template: "99ee65a5-f9e0-4c79-8036-19889541d341"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Partial Designs/Header
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F2387FD0-3838-453C-AFE2-8A8EC9DAD55F}"
+          p:before="*"
+          s:ds=""
+          s:id="{9D3BA81A-EECE-4B5A-9862-0239A9D53EEC}"
+          s:par="NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot&amp;NavigationFieldNames&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA27DCBF6-90CF-42D1-9A71-037026B98153%7D&amp;Styles=%7B9A9274BE-1B73-4642-B358-D1EA9831178B%7D%7C%7B6811042E-60E4-4D50-9286-1946E4B4FBEF%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/header/column-2-1" />
+        <r
+          uid="{0026DC53-4EF4-4BF6-A915-9676F1224B71}"
+          p:after="r[@uid='{F2387FD0-3838-453C-AFE2-8A8EC9DAD55F}']"
+          s:ds="{33479CD8-E9AE-4B00-BAB0-E7CB8DBA13F8}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BD89D7AB2-CA67-4BAB-AFD8-62DACD4E8573%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/header/column-1-1" />
+        <r
+          uid="{3849B218-1782-4945-A826-ABF2C3F6AB92}"
+          p:after="*[1=2]"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7BD503428B-F850-42EF-98DF-923F15582406%7D%7C%7B05C523C6-3E52-46D1-A186-3368151806B0%7D%7C%7B5D74AF38-1A37-491A-A4BB-A9E251D862F3%7D%7C%7BB61D0C31-66A7-4B67-A8DB-77671188FF4D%7D%7C%7BC2D946C9-30ED-4D37-B393-F37DF40F115B%7D&amp;ColumnWidth2=%7B47AF4C5D-C5CA-4D7C-B601-D74F82035C8A%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=1"
+          s:ph="header" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5EAD902D-16C3-4395-B3B3-6A15523215E8}"
+Languages:
+- Language: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T060952Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Header
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T021258Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
