@@ -2,7 +2,7 @@
 ID: "0cb8af22-e5f9-4045-bdeb-536fc582b76c"
 Parent: "2e8efd05-b372-46be-a6aa-d8dfe0bb9a24"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Section1/TeamCountrySection/Country/Settings/Datasource
+Path: /sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Team Info/TeamCountrySection/Country/Settings/Datasource
 DB: master
 Languages:
 - Language: en

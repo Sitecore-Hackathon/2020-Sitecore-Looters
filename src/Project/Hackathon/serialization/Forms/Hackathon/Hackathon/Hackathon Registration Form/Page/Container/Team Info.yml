@@ -1,8 +1,8 @@
 ﻿---
-ID: "eda3b1f3-d5f3-412f-9c57-edd0e3407ea1"
-Parent: "56e71b15-4490-4b9e-a62d-d67631fe5b39"
+ID: "9482ae1c-a1eb-4063-9321-c0959cdd4563"
+Parent: "50ab4258-fcf7-411a-b1dd-ab938830419b"
 Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: /sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Team Member Area/TeamMemberThree
+Path: /sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Team Info
 DB: master
 SharedFields:
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
@@ -11,13 +11,13 @@ SharedFields:
     {"fieldConditions":[]}
 - ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
   Hint: Css Class
-  Value: "form-row row memberThree d-none col-12"
+  Value: "form-row row"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: CCD6D901943847E4854E77A19FBA543D
+  Value: 01333FA3F8154486B765E59E97FD6028
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -25,4 +25,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T083620Z
+      Value: 20200229T082245Z

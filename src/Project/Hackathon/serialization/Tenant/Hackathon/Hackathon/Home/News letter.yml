@@ -4,6 +4,36 @@ Parent: "8777b0c6-632b-4935-9dc9-302f4740f165"
 Template: "0bae3bfc-6b0d-4482-96cf-f5937bc3c657"
 Path: /sitecore/content/Hackathon/Hackathon/Home/News letter
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0E366925-FD6A-45CE-8B8E-0D0654030A44}"
+          p:before="*"
+          s:ds="{17433F0B-F2BD-4549-B0A7-3D645BE8CF2B}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:par=""
+          s:ph="/main/container-1/sitecoreFormsWrapper-2" />
+        <r
+          uid="{23B74737-6DCE-4B49-95C1-BD6598232F9E}"
+          p:after="r[@uid='{0E366925-FD6A-45CE-8B8E-0D0654030A44}']"
+          s:id="{6AB4EE29-CB78-4DCE-A316-3E6C3D5513F5}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{BB4835A6-0C1C-444A-BDBA-9ABB0EE6CFE1}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B5F5D3105-1D4C-4A3A-830D-1460C566C6DE%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:

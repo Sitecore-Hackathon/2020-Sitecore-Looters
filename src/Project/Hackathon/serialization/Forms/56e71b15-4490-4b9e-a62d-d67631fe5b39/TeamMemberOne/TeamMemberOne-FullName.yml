@@ -17,7 +17,7 @@ SharedFields:
   Value: 7F8D2D6D8A704B6B86EE4E0E7AAC43FE
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 100
 Languages:
 - Language: en
   Versions:

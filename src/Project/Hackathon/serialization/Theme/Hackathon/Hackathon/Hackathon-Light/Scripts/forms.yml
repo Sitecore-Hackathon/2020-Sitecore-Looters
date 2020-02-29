@@ -1,0 +1,49 @@
+﻿---
+ID: "ec334886-10b3-41c9-b221-40e69a90eab7"
+Parent: "9ebf029e-4355-4f28-af16-7e7bc9162b61"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/Hackathon/Hackathon/Hackathon-Light/Scripts/forms"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/EC33488610B341C9B22140E69A90EAB7.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "e37caa61-fd87-4571-9610-ad4756f483b3"
+  Value: JChkb2N1bWVudCkucmVhZHkoZnVuY3Rpb24gKCkgew0KICAgICQoZG9jdW1lbnQpLm9uKCdjbGljaycsICcuYWRkLXNlY29uZC1tZW1iZXInLCBmdW5jdGlvbiAoKSB7DQogICAgICAgICQoJy5tZW1iZXJUd28nKS5yZW1vdmVDbGFzcygnZC1ub25lJyk7DQogICAgICAgICQoJy5hZGQtc2Vjb25kLW1lbWJlcicpLmhpZGUoKTsNCiAgICAgICAgJCgnLmFkZC10aGlyZC1tZW1iZXInKS5yZW1vdmVDbGFzcygnZC1ub25lJyk7DQogICAgfSk7DQoNCiAgICAkKGRvY3VtZW50KS5vbignY2xpY2snLCAnLmFkZC10aGlyZC1tZW1iZXInLCBmdW5jdGlvbiAoKSB7DQogICAgICAgICQoJy5tZW1iZXJUaHJlZScpLnJlbW92ZUNsYXNzKCdkLW5vbmUnKTsNCiAgICAgICAgJCgnLmFkZC10aGlyZC1tZW1iZXInKS5oaWRlKCk7DQogICAgfSk7DQp9KTs=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 419
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: "application/x-javascript"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: js
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190821T135325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190821T135325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

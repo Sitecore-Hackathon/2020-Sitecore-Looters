@@ -11,7 +11,7 @@ SharedFields:
     {"fieldConditions":[]}
 - ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
   Hint: Css Class
-  Value: "form-row row memberTwo d-none"
+  Value: "form-row row memberTwo d-none col-12"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
   Value: CCD6D901943847E4854E77A19FBA543D
