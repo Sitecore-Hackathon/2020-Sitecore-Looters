@@ -2,7 +2,7 @@
 ID: "7267a404-1433-47b0-b3f4-b368883a6229"
 Parent: "b8652e03-af2d-4601-91e4-72c7d2b16bab"
 Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Section2/TeamMemberOne/TeamMemberOne-FullName/FullNameOne"
+Path: "/sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Team Member Area/TeamMemberOne/TeamMemberOne-FullName/FullNameOne"
 DB: master
 SharedFields:
 - ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"

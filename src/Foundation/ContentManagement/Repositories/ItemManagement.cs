@@ -6,7 +6,7 @@ using Sitecore.SecurityModel;
 
 namespace Hackathon.Boilerplate.Foundation.ContentManagement.Repositories
 {
-    public class ItemManagement:IItemManagement
+    public class ItemManagement : IItemManagement
     {
         private readonly ISitecoreService _sitecoreService;
 
@@ -15,6 +15,8 @@ namespace Hackathon.Boilerplate.Foundation.ContentManagement.Repositories
             _sitecoreService = sitecoreService;
 
         }
+
+        /// <inheritdoc />
         public T CreateSitecoreItemUsingParentPath<T>(T child, string parentPath) where T : GlassBase
         {
             // Check if the child or the parentPath is null 
@@ -25,7 +27,7 @@ namespace Hackathon.Boilerplate.Foundation.ContentManagement.Repositories
 
             //Get the parent item using the parent model from Sitecore
             var parentItem = _sitecoreService.GetItem<GlassParent>(
-                new GetItemByPathOptions {Path = parentPath});
+                new GetItemByPathOptions { Path = parentPath });
 
             if (parentItem == null)
                 throw new ArgumentNullException($"ParentItem is null for parentPath of '{parentPath}'");
@@ -34,11 +36,12 @@ namespace Hackathon.Boilerplate.Foundation.ContentManagement.Repositories
             {
 
                 return _sitecoreService.CreateItem<T>(
-                    new CreateByModelOptions {Model = child, Parent = parentItem});
+                    new CreateByModelOptions { Model = child, Parent = parentItem });
 
             }
         }
 
+        /// <inheritdoc />
         public T CreateSitecoreItem<T>(T child, string parentId) where T : GlassBase
         {
             ///// Check if the child or the parentPath is null 
@@ -50,7 +53,7 @@ namespace Hackathon.Boilerplate.Foundation.ContentManagement.Repositories
             Guid.TryParse(parentId, out id);
             if (id == null || id == Guid.Empty)
             {
-                Sitecore.Diagnostics.Log.Error($"Error getting item by id:: provided id = {parentId} ",this);
+                Sitecore.Diagnostics.Log.Error($"Error getting item by id:: provided id = {parentId} ", this);
                 return null;
             }
             //Get the parent item using the parent model from Sitecore
@@ -66,6 +69,21 @@ namespace Hackathon.Boilerplate.Foundation.ContentManagement.Repositories
                 return _sitecoreService.CreateItem<T>(
                     new CreateByModelOptions { Model = child, Parent = parentItem });
 
+            }
+        }
+
+        /// <inheritdoc />
+        public T GetItemByPath<T>(string path) where T : GlassBase
+        {
+            try
+            {
+                T item = _sitecoreService.GetItem<T>(path);
+                return item;
+            }
+            catch (Exception ex)
+            {
+                Sitecore.Diagnostics.Log.Error($"Error getting item with path = {path} : {ex.Message}",ex,this);
+                return null;
             }
         }
     }

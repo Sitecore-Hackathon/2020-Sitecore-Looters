@@ -2,7 +2,7 @@
 ID: "3c333f19-9ec3-41c6-a13e-6c26b3d767e1"
 Parent: "da0e0139-937d-4cbc-9d82-a7fefc654648"
 Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Section2/TeamMemberTwo/TeamMemberTwo-LinkedIn"
+Path: "/sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Team Member Area/TeamMemberTwo/TeamMemberTwo-LinkedIn"
 DB: master
 SharedFields:
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
@@ -11,7 +11,7 @@ SharedFields:
     {"fieldConditions":[]}
 - ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
   Hint: Css Class
-  Value: "form-group col-md-4"
+  Value: "form-group col-md-6"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
   Value: 10BB3E05EFFC4E4085712E99E698378C

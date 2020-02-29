@@ -1,39 +1,36 @@
 ﻿using System;
-using System.Web;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web.Http.Dependencies;
+using System.Web.Mvc;
 using Hackathon.Boilerplate.Feature.Forms.Models;
-using Sitecore.Analytics;
-using Sitecore.DependencyInjection;
+using Hackathon.Boilerplate.Feature.Forms.ReadOnly;
+using Hackathon.Boilerplate.Foundation.ContentManagement.Interfaces;
+using Microsoft.Extensions.DependencyModel;
+using Sitecore.Configuration;
 using Sitecore.Diagnostics;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExperienceForms.Processing.Actions;
-using Sitecore.ListManagement.XConnect.Web;
 using Sitecore.XConnect;
-using Sitecore.XConnect.Client;
 using Sitecore.XConnect.Client.Configuration;
 using Sitecore.XConnect.Collection.Model;
-using Sitecore.Configuration;
 
 namespace Hackathon.Boilerplate.Feature.Forms.SaveActions
 {
-    public class SaveTeam : SubmitActionBase<TeamInfo>
+    public class SaveTeam : SubmitActionBase<string>
     {
 
         /// <summary>
         /// Initializes a new instance of the <see cref="SaveTeam"/> class.
         /// </summary>
         /// <param name="submitActionData">The submit action data.</param>
-
+        private IItemManagement _ItemManagement;
         public SaveTeam(ISubmitActionData submitActionData) : base(submitActionData)
         {
+            _ItemManagement = DependencyResolver.Current.GetService<IItemManagement>();
         }
 
-        /// <summary>
-        /// Gets the current tracker.
-        /// </summary>     
-        protected virtual ITracker CurrentTracker => Tracker.Current;
 
         /// <summary>
         /// Executes the action with the specified <paramref name="data" />.
@@ -42,55 +39,23 @@ namespace Hackathon.Boilerplate.Feature.Forms.SaveActions
         /// <param name="formSubmitContext">The form submit context.</param>
         /// <returns><c>true</c> if the action is executed correctly; otherwise <c>false</c></returns>
 
-        protected override bool Execute(NewsLetterContactData data, FormSubmitContext formSubmitContext)
+        protected override bool Execute(string data, FormSubmitContext formSubmitContext)
         {
             Assert.ArgumentNotNull(data, nameof(data));
             Assert.ArgumentNotNull(formSubmitContext, nameof(formSubmitContext));
-            var firstNameField = GetFieldById(data.FirstNameFieldId, formSubmitContext.Fields);
-            var lastNameField = GetFieldById(data.LastNameFieldId, formSubmitContext.Fields);
-            var emailField = GetFieldById(data.EmailFieldId, formSubmitContext.Fields);
-            if (firstNameField == null && lastNameField == null && emailField == null)
+            var fields = formSubmitContext.Fields;
+            var baseTeamPath = Settings.GetSetting("SaveTeam.TeamsPath");
+            var currentYearPath = baseTeamPath +"/"+ DateTime.Today.ToString("yyyy");
+            var teamNameField = GetFieldById(Guid.Parse(SaveTeamFields.TeamName), fields);
+            var teamPath = currentYearPath+"/"+GetValue(teamNameField);
+
+            var teamItem = _ItemManagement.GetItemByPath<TeamInfo>(teamPath);
+            if (teamItem != null)
             {
-                return false;
+                SubmitActionData.ErrorMessage = $"The Team name \"{GetValue(teamNameField)}\" already exists";
             }
-            using (var client = CreateClient())
-            {
-                try
-                {
-                    var source = "Subscribe.Form";
-                    var id = GetValue(emailField);//to sure that email address is unique 
-                    CurrentTracker.Session.IdentifyAs(source, id);
-                    var trackerIdentifier = new IdentifiedContactReference(source, id);
-                    var expandOptions = new ContactExpandOptions(
-                        CollectionModel.FacetKeys.PersonalInformation,
-                        CollectionModel.FacetKeys.EmailAddressList);
-                    Contact contact = client.Get(trackerIdentifier, expandOptions);
-                    SetPersonalInformation(GetValue(firstNameField), GetValue(lastNameField), contact, client);
-                    if (contact.Personal() == null)//new Contact
-                    {
-                        HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("NewsLetter.ContactAddedPage"));
-                    }
-                    else //Update Contact
-                    {
-                        HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("NewsLetter.ContactUpdatedPage"));
-                    }
-                    SetEmail(GetValue(emailField), contact, client);
-                    client.Submit(); // submit to ExperienceProfile
-                    #region Save to contact to Contact list
-                    SubscriptionService service = (SubscriptionService)ServiceLocator.ServiceProvider.GetService(typeof(ISubscriptionService));
-                    Guid listId = new Guid(Settings.GetSetting("NewsLetter.ListID"));// Get your Contact list ID
-                    Guid contactId = new Guid(contact.Id.ToString());
-                    service.Subscribe(listId, contactId);
-                    #endregion
-                    return true;
-                }
-                catch (Exception ex)
-                {
-                    Log.Error("Hackathon.Boilerplate.Feature.Forms", ex,this);
-                    HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("NewsLetter.ErrorPage"));
-                    return false;
-                }
-            }
+
+            return true;
         }
 
         /// <summary>

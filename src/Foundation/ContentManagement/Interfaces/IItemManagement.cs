@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Glass.Mapper.Sc;
 using Hackathon.Boilerplate.Foundation.ContentManagement.Models.SaudiAirlines.Foundation.Core.BaseClasses;
 
 namespace Hackathon.Boilerplate.Foundation.ContentManagement.Interfaces
 {
-    interface IItemManagement
+    public interface IItemManagement
     {
         /// <summary>Add a new Site-core item</summary>
         /// <param name="child">Child item</param>
@@ -20,5 +16,12 @@ namespace Hackathon.Boilerplate.Foundation.ContentManagement.Interfaces
         /// <param name="parentId">Parent item id</param>
         /// <returns>New item created</returns>
         T CreateSitecoreItem<T>(T child, string parentId) where T : GlassBase;
+
+        /// <summary>
+        /// Returns a an item by using the item path
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns>Sitecore Item</returns>
+        T GetItemByPath<T>(string path) where T : GlassBase;
     }
 }

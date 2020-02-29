@@ -3,18 +3,18 @@
 namespace Hackathon.Boilerplate.Feature.Forms.Models
 {
     /// <summary>
-    /// UpdateContactData
+    /// NewsLetterContactData
     /// </summary>
     public class NewsLetterContactData
     {
         /// <summary>
-        /// FirstName
+        /// First Name
         /// </summary>
 
         public Guid FirstNameFieldId { get; set; }
 
         /// <summary>
-        /// LastName
+        /// Last Name
         /// </summary>
 
         public Guid LastNameFieldId { get; set; }

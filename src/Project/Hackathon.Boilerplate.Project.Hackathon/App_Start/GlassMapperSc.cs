@@ -14,7 +14,7 @@ using Glass.Mapper.Sc.Pipelines.GetChromeData;
 using Sitecore.Pipelines;
 using System.Linq;
 
-namespace Hackathon.Boilerplate.Project.App_Start
+namespace Hackathon.Boilerplate.Project.Hackathon.App_Start
 {
 	public class GlassMapperSc : Glass.Mapper.Sc.Pipelines.Initialize.GlassMapperSc
 	{
