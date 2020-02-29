@@ -1,0 +1,22 @@
+﻿---
+ID: "80b71d09-a3e5-423e-84f7-4c3ad06cf711"
+Parent: "106c489f-2d36-4549-94af-0407f41ef6c5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Teams
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/users5.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{B9EEFD6A-8628-4C18-9958-A03E088588F0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T123005Z

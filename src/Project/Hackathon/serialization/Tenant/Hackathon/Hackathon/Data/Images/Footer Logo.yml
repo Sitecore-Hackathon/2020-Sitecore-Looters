@@ -1,0 +1,22 @@
+﻿---
+ID: "99dc3e55-9703-42ea-b63e-6c842cda2f4e"
+Parent: "d1ea4a6c-6bc5-4739-9186-b488524798c8"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Images/Footer Logo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T111556Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{5E04DA7D-A4E7-44C4-851A-4F8EDEBD3B29}" />

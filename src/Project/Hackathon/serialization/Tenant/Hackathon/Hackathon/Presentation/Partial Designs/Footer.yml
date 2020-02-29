@@ -8,7 +8,56 @@ SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
   Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4B0445F4-0F2E-4CC2-8893-EE2C48743FC9}"
+          p:before="*"
+          s:ds="{CA2F3408-BE82-4386-8F9E-600143940E29}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B313F6662-875E-4675-B492-E5DADE7F2D75%7D&amp;Styles&amp;TitleHeadingLevel&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/footer/column-2-2" />
+        <r
+          uid="{558C14EF-F553-4557-B353-5E048358D5BA}"
+          p:after="r[@uid='{4B0445F4-0F2E-4CC2-8893-EE2C48743FC9}']"
+          s:ds="{99DC3E55-9703-42EA-B63E-6C842CDA2F4E}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BD89D7AB2-CA67-4BAB-AFD8-62DACD4E8573%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/footer/column-1-2" />
+        <r
+          uid="{71A58DC9-2860-46C7-AE26-FA8563F50F23}"
+          p:after="r[@uid='{558C14EF-F553-4557-B353-5E048358D5BA}']"
+          s:ds=""
+          s:id="{9D3BA81A-EECE-4B5A-9862-0239A9D53EEC}"
+          s:par="NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;Filter&amp;Flattened&amp;AddRoot&amp;NavigationFieldNames&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA27DCBF6-90CF-42D1-9A71-037026B98153%7D&amp;Styles=%7B9489FE8A-D98F-4C5A-9987-C7F2804796E2%7D%7C%7B2F2AE645-5132-4C76-AF3F-B4B66D609F6F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="footer" />
+        <r
+          uid="{F075F367-F850-4F86-8303-146EE89A0E34}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth2=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1=%7B92DF4D8F-2B2F-4D4C-BC1A-E40191AB308C%7D&amp;Styles2=%7B9A9274BE-1B73-4642-B358-D1EA9831178B%7D%7C%7B92DF4D8F-2B2F-4D4C-BC1A-E40191AB308C%7D%7C%7B413E1474-9396-419C-B426-D2DBB52BB3B0%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=2"
+          s:ph="footer" />
+      </d>
+    </r>
 Languages:
+- Language: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T112722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
 - Language: en
   Versions:
   - Version: 1

@@ -1,25 +1,17 @@
 ﻿---
-ID: "9489fe8a-d98f-4c5a-9987-c7f2804796e2"
-Parent: "1f026cc5-c62b-4d4a-9439-edfd59bad8f4"
+ID: "413e1474-9396-419c-b426-d2dbb52bb3b0"
+Parent: "4f0b108e-c418-4b38-a972-ba59af30a6a6"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
-Path: /sitecore/content/Hackathon/Hackathon/Presentation/Styles/Content Alignment/Align Content Center
+Path: "/sitecore/content/Hackathon/Hackathon/Presentation/Styles/CreativeExchange/social-media-share"
 DB: master
-BranchID: "5edf676a-2fdd-418a-8c56-cb465ee16e20"
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value
-  Value: "position-center"
+  Value: "social-media-share"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
   Type: TreelistEx
   Value: "{C25766C8-9AFD-4D28-87FE-147774F6806D}"
-- ID: "95579875-484e-41f0-b9c2-804eafaf3ccc"
-  Hint: IsVerifiedStyle
-  Type: Checkbox
-  Value: 1
-- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
-  Hint: __Originator
-  Value: "{34E783C4-A8A1-4578-88E8-1C0483228F1B}"
 Languages:
 - Language: en
   Versions:
@@ -27,7 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T021310Z
+      Value: 20200229T125034Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
