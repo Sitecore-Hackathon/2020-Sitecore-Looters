@@ -1,0 +1,135 @@
+﻿---
+ID: "0b9542bb-e214-4fe7-80a8-56ef7da5b74c"
+Parent: "b3972dde-ddff-4c65-a287-6d1c82379532"
+Template: "cad37ab3-044c-42dc-b40a-6797f55f3008"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Countries/Cyprus
+DB: master
+SharedFields:
+- ID: "0839ff98-55fa-4940-b87a-e542f180efd8"
+  Hint: MarketCode
+  Value: USA
+- ID: "a7acf5aa-8aba-42bf-8e9a-a0afba2b5f10"
+  Hint: Languages
+  Type: Multilist
+  Value: |
+    {AF584191-45C9-4201-8740-5409F4CF8BDD}
+    {8DFA4BC7-5EE2-4D61-B936-70AD33E62554}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "e5758c11-5a00-4b1e-91f0-5662e7f2c548"
+  Hint: AreaCode
+  Value: +357
+- ID: "eed70e0a-f872-4a60-81a7-0b04493f008a"
+  Hint: FlagImage
+  Value: |
+    <image mediaid="{3C88A6B1-186A-4E5C-9DC8-77E712E3C1AD}"></image>
+Languages:
+- Language: ar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112039Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: قبرص
+- Language: de
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112039Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Cyprus
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112039Z
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Cyprus
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112039Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Cyprus
+- Language: fr
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112039Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Cyprus
+- Language: it
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112039Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Cyprus
+- Language: tr
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112039Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Cyprus
+- Language: ur
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112039Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Cyprus

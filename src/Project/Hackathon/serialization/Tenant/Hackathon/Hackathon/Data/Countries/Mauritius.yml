@@ -1,0 +1,138 @@
+﻿---
+ID: "77e7ecdf-ce80-432e-bb5f-2f25b1c3bf80"
+Parent: "b3972dde-ddff-4c65-a287-6d1c82379532"
+Template: "cad37ab3-044c-42dc-b40a-6797f55f3008"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Countries/Mauritius
+DB: master
+SharedFields:
+- ID: "0839ff98-55fa-4940-b87a-e542f180efd8"
+  Hint: MarketCode
+  Value: USA
+- ID: "250fb028-b0cb-4cf4-8f4c-4d71c4cf5b41"
+  Hint: ISOCode
+  Value: MU
+- ID: "7601ce30-ea15-4a19-af72-2fd43c23d2be"
+  Hint: Continent
+  Value: "{BFC24C12-DDD0-40DD-9CCF-2A8B4388E6B7}"
+- ID: "a7acf5aa-8aba-42bf-8e9a-a0afba2b5f10"
+  Hint: Languages
+  Type: Multilist
+  Value: |
+    {8DFA4BC7-5EE2-4D61-B936-70AD33E62554}
+    {AF584191-45C9-4201-8740-5409F4CF8BDD}
+- ID: "c87cd863-7953-4b95-a3b3-f832ce95b6ad"
+  Hint: Currency
+  Value: MUR
+- ID: "eed70e0a-f872-4a60-81a7-0b04493f008a"
+  Hint: FlagImage
+  Value: |
+    <image mediaid="{130CA385-687E-4BDB-84FE-181EE4093933}"></image>
+Languages:
+- Language: ar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: موريشيوس
+- Language: de
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Mauritius
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112148Z
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Myanmar
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Mauritius
+- Language: fr
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Mauritius
+- Language: it
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Mauritius
+- Language: tr
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Mauritius
+- Language: zh
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112149Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: 缅甸

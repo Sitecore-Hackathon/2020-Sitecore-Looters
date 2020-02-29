@@ -1,0 +1,148 @@
+﻿---
+ID: "634ca897-2806-4e56-9f0c-c3d5b52e69b8"
+Parent: "b3972dde-ddff-4c65-a287-6d1c82379532"
+Template: "cad37ab3-044c-42dc-b40a-6797f55f3008"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Countries/India
+DB: master
+SharedFields:
+- ID: "0839ff98-55fa-4940-b87a-e542f180efd8"
+  Hint: MarketCode
+  Value: IND
+- ID: "250fb028-b0cb-4cf4-8f4c-4d71c4cf5b41"
+  Hint: ISOCode
+  Value: IN
+- ID: "7601ce30-ea15-4a19-af72-2fd43c23d2be"
+  Hint: Continent
+  Value: "{56DDEBDD-2E9B-4462-A819-64727A9E57E9}"
+- ID: "a7acf5aa-8aba-42bf-8e9a-a0afba2b5f10"
+  Hint: Languages
+  Type: Multilist
+  Value: |
+    {AF584191-45C9-4201-8740-5409F4CF8BDD}
+    {8DFA4BC7-5EE2-4D61-B936-70AD33E62554}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c87cd863-7953-4b95-a3b3-f832ce95b6ad"
+  Hint: Currency
+  Value: INR
+- ID: "e5758c11-5a00-4b1e-91f0-5662e7f2c548"
+  Hint: AreaCode
+  Value: +91
+- ID: "eed70e0a-f872-4a60-81a7-0b04493f008a"
+  Hint: FlagImage
+  Value: |
+    <image mediaid="{C6746276-2353-49E3-82E0-C070AE4C69FE}"></image>
+Languages:
+- Language: ar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: الهند
+- Language: de
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Indien
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: India
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: India
+- Language: fr
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Inde
+- Language: it
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: India
+- Language: tr
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Hindistan
+- Language: zh
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: 印度

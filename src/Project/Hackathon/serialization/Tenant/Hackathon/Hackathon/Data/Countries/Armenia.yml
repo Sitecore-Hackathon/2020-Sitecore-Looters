@@ -1,0 +1,111 @@
+﻿---
+ID: "26497b88-0069-4387-97a6-33517e01f307"
+Parent: "b3972dde-ddff-4c65-a287-6d1c82379532"
+Template: "cad37ab3-044c-42dc-b40a-6797f55f3008"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Countries/Armenia
+DB: master
+SharedFields:
+- ID: "0839ff98-55fa-4940-b87a-e542f180efd8"
+  Hint: MarketCode
+  Value: USA
+- ID: "a7acf5aa-8aba-42bf-8e9a-a0afba2b5f10"
+  Hint: Languages
+  Type: Multilist
+  Value: |
+    {AF584191-45C9-4201-8740-5409F4CF8BDD}
+    {8DFA4BC7-5EE2-4D61-B936-70AD33E62554}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "e5758c11-5a00-4b1e-91f0-5662e7f2c548"
+  Hint: AreaCode
+  Value: +374
+- ID: "eed70e0a-f872-4a60-81a7-0b04493f008a"
+  Hint: FlagImage
+  Value: |
+    <image mediaid="{3529ED3F-FC0D-4972-8682-28AA86E6BBE4}" />
+Languages:
+- Language: ar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112119Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value:  أرمينيا
+- Language: de
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112119Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Armenien
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112119Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Armenia
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112119Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Armenia
+- Language: it
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112119Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Armenia
+- Language: tr
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190505T112119Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6725ca71-befe-469c-bd43-4ac8ce961d41"
+      Hint: Country Name
+      Value: Ermenistan
