@@ -1,0 +1,28 @@
+﻿---
+ID: "5fe549a5-5bcc-43ce-9904-cbdacf11ba1c"
+Parent: "da0e0139-937d-4cbc-9d82-a7fefc654648"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Section2/TeamMemberTwo/TeamMemberTwo-FullName"
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "form-group col-md-4"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: DFCCCB064C93431193D1CFF4C4C4B055
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T083647Z
