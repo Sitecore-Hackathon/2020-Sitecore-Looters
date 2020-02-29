@@ -1,0 +1,34 @@
+﻿---
+ID: "abb11517-a3e9-499e-98f7-92ff3a8e8a0a"
+Parent: "9d493ed6-dd43-40f0-b60e-3372b662aa4f"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/Hackathon/Hackathon/Hackathon-Light/styles/teams"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/ABB11517A3E9499E98F792FF3A8E8A0A.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "f5674c9e-8b1c-44ad-b589-3bff98812753"
+  Value: LnRlYW0tbGlzdCB1bHsNCiAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7DQogICAgbWFyZ2luOiAwOw0KICAgIHBhZGRpbmc6IDA7DQp9DQoNCi50ZWFtLWxpc3QgdWwgbGkgew0KICAgIGZsb2F0OiBsZWZ0Ow0KICB9
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 123
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T103857Z

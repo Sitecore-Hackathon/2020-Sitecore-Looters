@@ -1,0 +1,25 @@
+﻿---
+ID: "f1c5bd54-80b5-4c95-bd9d-9eaed7b29fcf"
+Parent: "f36e9d01-f775-457b-9822-6b9d2a1b1bfd"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Rendering Variants/Page List/Team List
+DB: master
+SharedFields:
+- ID: "6e87db8e-58a6-4613-823b-e99e244f07a0"
+  Hint: ItemCssClassField
+  Value: 
+- ID: "e1d5adba-8348-4127-9bb6-455936653839"
+  Hint: CssClass
+  Value: "team-list"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T200839Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

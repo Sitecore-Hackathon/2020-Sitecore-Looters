@@ -1,0 +1,25 @@
+﻿---
+ID: "a3f108c8-5ff8-4961-9d87-a21ac032ddba"
+Parent: "c660b2c6-a82f-450b-abfa-0fe1f8f742a9"
+Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Rendering Variants/Page Content/Hackathon Content/Judges/Judges/Full Name
+DB: master
+SharedFields:
+- ID: "4753764c-c05a-4623-841b-97f85135241c"
+  Hint: FieldName
+  Value: Full Name
+- ID: "db805bdc-8eec-4238-b174-2427b6f1f077"
+  Hint: Tag
+  Value: "{36795C64-E060-4AEF-B209-A1F20A64FC3F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T200254Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

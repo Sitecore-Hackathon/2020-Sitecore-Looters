@@ -1,0 +1,43 @@
+﻿---
+ID: "50effae5-1346-46bf-8f3b-f7a445723e98"
+Parent: "49cf441d-43b8-424f-a136-433bbc4cf65f"
+Template: "ec4de6fe-53cc-468f-bf3e-13dfeffb6a99"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Teams/2020/Katsu
+DB: master
+SharedFields:
+- ID: "2e6ab8de-11e0-4865-95b5-0cc262db043c"
+  Hint: ThirdMemberName
+  Value: AJ
+- ID: "41d5e504-5318-4d20-b323-be4f141e0627"
+  Hint: Email
+  Value: sda@ss.com
+- ID: "6f5f36f2-be19-4202-a453-5294deacbfc2"
+  Hint: FirstMemberLinkedIn
+  Value: zxa
+- ID: "7094e4c6-8e15-465f-921f-bdadccad3831"
+  Hint: Country
+  Value: Jordan
+- ID: "74cc77f5-436d-4b0d-82a1-78be6ff427bd"
+  Hint: FirstMemberName
+  Value: Hanen
+- ID: "9ddbcc34-ee63-47b2-8826-ffcc26aed015"
+  Hint: SecondMemberName
+  Value: Duaa
+- ID: "f1dc7200-d3b0-403c-8319-cd4f0a8ac73a"
+  Hint: TeamName
+  Value: Katsu
+- ID: "fa391cc3-2f3e-44d5-9eb6-b5e0345ebacb"
+  Hint: FirstMemberTwitter
+  Value: as
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T204340Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous

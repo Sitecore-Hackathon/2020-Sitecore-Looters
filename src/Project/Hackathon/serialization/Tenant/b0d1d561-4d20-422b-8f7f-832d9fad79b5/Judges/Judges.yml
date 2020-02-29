@@ -1,0 +1,18 @@
+﻿---
+ID: "c660b2c6-a82f-450b-abfa-0fe1f8f742a9"
+Parent: "13e8a691-bfd4-4fd1-b7a9-bb845b08d415"
+Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Rendering Variants/Page Content/Hackathon Content/Judges/Judges
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T200236Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

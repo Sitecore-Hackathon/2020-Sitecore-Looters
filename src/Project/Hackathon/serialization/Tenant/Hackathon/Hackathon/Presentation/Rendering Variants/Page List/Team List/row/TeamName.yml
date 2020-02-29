@@ -1,0 +1,22 @@
+﻿---
+ID: "7cc4e4d2-feb6-4a5e-b1d5-bf984cd5f31a"
+Parent: "bb4d7d92-3fc8-46aa-8377-37f4ed762454"
+Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Rendering Variants/Page List/Team List/row/TeamName
+DB: master
+SharedFields:
+- ID: "4753764c-c05a-4623-841b-97f85135241c"
+  Hint: FieldName
+  Value: TeamName
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T200931Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,24 +1,18 @@
 ﻿---
-ID: "60df3ee1-ae28-4231-aed6-20a9b40b4ed1"
-Parent: "7d4f0bda-1493-42d6-a222-d1b1cf11bdb9"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Hackathon/Page Types/Hackathon Details Page
+ID: "5a777f6f-238e-421b-b9b3-5370cc4f5924"
+Parent: "60df3ee1-ae28-4231-aed6-20a9b40b4ed1"
+Template: "60df3ee1-ae28-4231-aed6-20a9b40b4ed1"
+Path: /sitecore/templates/Project/Hackathon/Page Types/Hackathon Details Page/__Standard Values
 DB: master
 SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Office/32x32/bacon.png
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Type: tree list
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {13BF2A3B-F41C-47AF-94C9-4610AA036B19}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
   Value: |
-    <r>
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}">
@@ -35,9 +29,6 @@ SharedFields:
           uid="{B41B6E8F-6F12-47EB-BB6B-08FEE74BF555}" />
       </d>
     </r>
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{5A777F6F-238E-421B-B9B3-5370CC4F5924}"
 Languages:
 - Language: en
   Versions:
@@ -45,4 +36,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T172210Z
+      Value: 20200229T204500Z

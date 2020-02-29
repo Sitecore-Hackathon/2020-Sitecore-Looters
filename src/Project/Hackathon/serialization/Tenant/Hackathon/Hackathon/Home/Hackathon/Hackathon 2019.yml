@@ -4,6 +4,31 @@ Parent: "95fbb5ae-e722-4399-9eed-8c87ef30d4c3"
 Template: "60df3ee1-ae28-4231-aed6-20a9b40b4ed1"
 Path: /sitecore/content/Hackathon/Hackathon/Home/Hackathon/Hackathon 2019
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}">
+        <r
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB0D1D561-4D20-422B-8F7F-832D9FAD79B5%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          ph="main"
+          uid="{FF69B03E-7F94-48D2-807A-9655B234108D}" />
+        <r
+          ds="{6DDA34A8-BE61-40A0-BE9E-7CE0E2B28A4D}"
+          id="{2E991AA4-4B08-43D2-AD2B-17C11E69A499}"
+          par="SourceType=%7B90105CB9-2CFD-4151-9FA8-6CDF92B158C2%7D&amp;Reset Caching Options&amp;ListSignature&amp;PageSize&amp;Offset&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BF1C5BD54-80B5-4C95-BD9D-9EAED7B29FCF%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          ph="main"
+          uid="{B41B6E8F-6F12-47EB-BB6B-08FEE74BF555}" />
+      </d>
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -32,8 +57,8 @@ Languages:
                 <li>Standard coding standards &amp; naming conventions</li>
             </ul>
             </li>
-            <li><strong>Precise and Clear Installation Instructions document (1 &ndash; 2 pages)</strong></li>
-            <li><strong>Module usage documentation on Readme.md file on the Git Repository (2 &ndash; 5 pages)</strong>
+            <li><strong>Precise and Clear Installation Instructions document (1 – 2 pages)</strong></li>
+            <li><strong>Module usage documentation on Readme.md file on the Git Repository (2 – 5 pages)</strong>
             <ul>
                 <li>Module Purpose</li>
                 <li>Module Sitecore Hackathon Category</li>
@@ -41,7 +66,7 @@ Languages:
                 <li>Screenshots, etc.</li>
             </ul>
             </li>
-            <li><strong>Create a 2 &ndash; 10 minutes video explaining the module&rsquo;s functionality (A link to youtube video)</strong>
+            <li><strong>Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)</strong>
             <ul>
                 <li>What problem was solved</li>
                 <li>How did you solve it</li>
@@ -49,15 +74,16 @@ Languages:
             </ul>
             </li>
         </ul>
+    - ID: "7e9bb091-016a-493d-95ff-b42a0ac69544"
+      Hint: Winners
+      Type: Treelist
+      Value: "{EF29CF3A-53C4-497B-B8B1-4077C7CE2B6E}"
     - ID: "8d1363d8-9150-4b80-b8d2-9a3b429f4325"
       Hint: Content
       Value: |
         The 2020 Sitecore Hackathon is a free online community driven event organized by&nbsp;<a rel="noopener noreferrer" href="https://twitter.com/akshaysura13" target="_blank">Akshay Sura</a>&nbsp;and supported by Sitecore. (Shout out to&nbsp;<a rel="noopener noreferrer" href="https://twitter.com/pieterbrink123" target="_blank">Pieter</a>, &nbsp;<a rel="noopener noreferrer" href="https://twitter.com/markvanaalst" target="_blank">Mark</a> and <a rel="noopener noreferrer" href="https://twitter.com/VargaT" target="_blank">Tamas</a>).
-        <p>Teams that have signed up by <strong>6 pm EST February 14, 2020</strong> will have the opportunity to participate in the contest. Eligible teams will have 24 hours &mdash; starting <strong>Friday February 28th 2020 at 8PM EST</strong> and ending <strong>Saturday February 29th 2020 at 8PM EST</strong>&nbsp;&ndash; to build and submit a Sitecore module best implementing the idea for the Hackathon, as determined by our panel of judges. The idea(s) will be announced an hour before the Hackathon starts on February 28th.</p>
-        <br class="t-last-br" />
-        <br class="t-last-br" />
-        <br />
-        <br class="t-last-br" />
+        <p>Teams that have signed up by <strong>6 pm EST February 14, 2020</strong> will have the opportunity to participate in the contest. Eligible teams will have 24 hours — starting <strong>Friday February 28th 2020 at 8PM EST</strong> and ending <strong>Saturday February 29th 2020 at 8PM EST</strong>&nbsp;– to build and submit a Sitecore module best implementing the idea for the Hackathon, as determined by our panel of judges. The idea(s) will be announced an hour before the Hackathon starts on February 28th.</p>
+        
     - ID: "b71341a3-ac55-4880-8342-ad6d0e62a7ab"
       Hint: Judges
       Type: Treelist
@@ -69,8 +95,8 @@ Languages:
       Value: |
         The winning teams will each receive a $100 Amazon gift card per team member, making the total $300 per team for a three person team. The Amazon gift cards will be emailed to the email addresses on file no later than 10 days after the winning team is announced. If Amazon gift cards are not available in the region, alternate arrangements will be made.
         <p>We will showcase your company logo and/or your team photo on this website.</p>
-        <p><strong>Bonus: <a rel="noopener noreferrer" href="http://www.teamdevelopmentforsitecore.com/" target="_blank">Hedgehog</a> is sponsoring prizes for this year&rsquo;s Hackathon. Category winners will each receive 1 FREE license for TDS and 1 server license with 2 user count for Avtor per winning member of the winning team!</strong></p>
-        <p><strong>Bonus: <a rel="noopener noreferrer" href="https://www.brimit.com/" target="_blank">Brimit</a> is also sponsoring prizes this year to entice more teams to join the Sitecore Hackathon. Each winning member of the team will receive a FREE user registration for the <a rel="noopener noreferrer" href="https://www.sugcon.eu/" target="_blank">SUGCON EU 2020</a> worth &euro;350 per each member. </strong></p>
+        <p><strong>Bonus: <a rel="noopener noreferrer" href="http://www.teamdevelopmentforsitecore.com/" target="_blank">Hedgehog</a> is sponsoring prizes for this year’s Hackathon. Category winners will each receive 1 FREE license for TDS and 1 server license with 2 user count for Avtor per winning member of the winning team!</strong></p>
+        <p><strong>Bonus: <a rel="noopener noreferrer" href="https://www.brimit.com/" target="_blank">Brimit</a> is also sponsoring prizes this year to entice more teams to join the Sitecore Hackathon. Each winning member of the team will receive a FREE user registration for the <a rel="noopener noreferrer" href="https://www.sugcon.eu/" target="_blank">SUGCON EU 2020</a> worth €350 per each member. </strong></p>
         <ol>
             <li>No purchase necessary.</li>
             <li>Must 21 years or older at time of entry.</li>

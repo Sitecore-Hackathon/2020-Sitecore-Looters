@@ -1,0 +1,27 @@
+﻿---
+ID: "a88cf403-f00e-49d8-8382-825159b41f1b"
+Parent: "49cf441d-43b8-424f-a136-433bbc4cf65f"
+Template: "ec4de6fe-53cc-468f-bf3e-13dfeffb6a99"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Teams/2020/Team 3
+DB: master
+SharedFields:
+- ID: "7094e4c6-8e15-465f-921f-bdadccad3831"
+  Hint: Country
+  Value: Jordan
+- ID: "74cc77f5-436d-4b0d-82a1-78be6ff427bd"
+  Hint: FirstMemberName
+  Value: Majdy
+- ID: "9ddbcc34-ee63-47b2-8826-ffcc26aed015"
+  Hint: SecondMemberName
+  Value: Radwan
+- ID: "f1dc7200-d3b0-403c-8319-cd4f0a8ac73a"
+  Hint: TeamName
+  Value: Team 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T200711Z
