@@ -1,0 +1,26 @@
+﻿---
+ID: "da4b882e-9db5-4c21-bd2a-b7ea18f87479"
+Parent: "4f0b108e-c418-4b38-a972-ba59af30a6a6"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: "/sitecore/content/Hackathon/Hackathon/Presentation/Styles/CreativeExchange/navbar-container"
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "navbar-container"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Type: TreelistEx
+  Value: "{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T103858Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

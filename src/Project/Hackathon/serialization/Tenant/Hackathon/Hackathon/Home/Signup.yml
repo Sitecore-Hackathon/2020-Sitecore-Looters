@@ -1,0 +1,44 @@
+﻿---
+ID: "152089f3-fbb7-428d-980b-58f1607d38ce"
+Parent: "8777b0c6-632b-4935-9dc9-302f4740f165"
+Template: "13bf2a3b-f41c-47af-94c9-4610aa036b19"
+Path: /sitecore/content/Hackathon/Hackathon/Home/Signup
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8102D139-95ED-4CB7-98BB-F5A7C129692C}"
+          p:before="*"
+          s:ds="{28296BB1-A939-40D2-898D-36DA256144CC}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:par=""
+          s:ph="/main/sitecoreFormsWrapper-1" />
+        <r
+          uid="{CF97B606-6613-4BEE-B7C9-8C40D1108ED8}"
+          p:after="*[1=2]"
+          s:id="{6AB4EE29-CB78-4DCE-A316-3E6C3D5513F5}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0cd046d4-09cf-4403-a05c-a8ba1fd09e74"
+      Hint: Title
+      Value: Signup
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T093120Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Signup

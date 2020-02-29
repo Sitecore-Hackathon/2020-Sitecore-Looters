@@ -1,0 +1,22 @@
+﻿---
+ID: "5e2b43be-7a82-4fa6-8773-04f76fbfe3c8"
+Parent: "e206d31f-ecba-43db-9360-8285a06b9e0d"
+Template: "e24e0789-a058-48bf-abb6-c69c0e60b6b7"
+Path: /sitecore/content/Hackathon/Hackathon/Data/Links/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T093533Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "dd05144a-bd66-4ea3-956a-4b7104daaba3"
+      Hint: Link
+      Value: |
+        <link linktype="internal" text="Home" class="home-link " querystring="" target="" id="{8777B0C6-632B-4935-9DC9-302F4740F165}" />

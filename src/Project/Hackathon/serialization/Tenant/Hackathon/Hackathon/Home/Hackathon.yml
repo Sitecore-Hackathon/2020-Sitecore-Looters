@@ -1,0 +1,24 @@
+﻿---
+ID: "95fbb5ae-e722-4399-9eed-8c87ef30d4c3"
+Parent: "8777b0c6-632b-4935-9dc9-302f4740f165"
+Template: "13bf2a3b-f41c-47af-94c9-4610aa036b19"
+Path: /sitecore/content/Hackathon/Hackathon/Home/Hackathon
+DB: master
+SharedFields:
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{C3E3F0E3-0162-4F1F-AB3E-40348E371A3F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0cd046d4-09cf-4403-a05c-a8ba1fd09e74"
+      Hint: Title
+      Value: Hackathon
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092612Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Hackathon

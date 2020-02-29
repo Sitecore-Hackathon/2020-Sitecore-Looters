@@ -1,0 +1,20 @@
+﻿---
+ID: "3186ef8f-e61d-4634-a552-446ee4b173f5"
+Parent: "8777b0c6-632b-4935-9dc9-302f4740f165"
+Template: "13bf2a3b-f41c-47af-94c9-4610aa036b19"
+Path: /sitecore/content/Hackathon/Hackathon/Home/Newsletter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0cd046d4-09cf-4403-a05c-a8ba1fd09e74"
+      Hint: Title
+      Value: Newsletter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092549Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Newsletter
