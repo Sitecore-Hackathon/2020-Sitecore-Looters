@@ -14,17 +14,23 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{8102D139-95ED-4CB7-98BB-F5A7C129692C}"
+          uid="{333AB9A7-3166-434E-9B50-16C391EE8C8F}"
           p:before="*"
           s:ds="{28296BB1-A939-40D2-898D-36DA256144CC}"
           s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
           s:par=""
-          s:ph="main" />
+          s:ph="/main/container-1/sitecoreFormsWrapper-2" />
         <r
-          uid="{CF97B606-6613-4BEE-B7C9-8C40D1108ED8}"
-          p:after="*[1=2]"
+          uid="{7F050ADB-2102-42F0-8C61-1269336C10CC}"
+          p:after="r[@uid='{333AB9A7-3166-434E-9B50-16C391EE8C8F}']"
           s:id="{6AB4EE29-CB78-4DCE-A316-3E6C3D5513F5}"
-          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{5A6C9C0C-0029-4404-9240-677E3C06F109}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
           s:ph="main" />
       </d>
     </r>

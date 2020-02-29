@@ -1,0 +1,52 @@
+﻿---
+ID: "04147ade-84bd-4bd7-95b1-fbc417499a1b"
+Parent: "0d3e443b-b994-4132-96d0-35bc7f1f366b"
+Template: "99ee65a5-f9e0-4c79-8036-19889541d341"
+Path: /sitecore/content/Hackathon/Hackathon/Presentation/Partial Designs/Home Page carousel
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "home-page-carousel"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}">
+        <r
+          ds="{6548AE7C-0371-419B-A6A1-816873A21320}"
+          id="{5A21C781-8E74-4DD0-8261-8CCDA1BF0454}"
+          par="Navigation=%7B848DFE42-2B13-430E-A0B9-89CE25730A06%7D&amp;Transition=%7BD4B706CC-7EEC-4DB9-A87D-123B29803490%7D&amp;Timeout=2000&amp;PauseOnHover=1&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          ph="main"
+          uid="{333A5C8A-90DC-49B4-BB09-4E7FD1CB9599}" />
+      </d>
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
+Languages:
+- Language: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T185637Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T185044Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

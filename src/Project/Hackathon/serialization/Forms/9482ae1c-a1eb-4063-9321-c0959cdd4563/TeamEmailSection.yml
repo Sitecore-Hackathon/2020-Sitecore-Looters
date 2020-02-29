@@ -2,7 +2,7 @@
 ID: "d89f06e6-64f8-42d7-b6ad-e676216ff34f"
 Parent: "9482ae1c-a1eb-4063-9321-c0959cdd4563"
 Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: /sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Section1/TeamEmailSection
+Path: /sitecore/Forms/Hackathon/Hackathon/Hackathon Registration Form/Page/Container/Team Info/TeamEmailSection
 DB: master
 SharedFields:
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
@@ -11,7 +11,7 @@ SharedFields:
     {"fieldConditions":[]}
 - ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
   Hint: Css Class
-  Value: "form-group col-md-6"
+  Value: "form-group col-6"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
   Value: C584A87389E44842972111E9119EAF89
