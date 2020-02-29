@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DI\GlassMapperServicesConfigurator.cs" />
     <Compile Include="DI\ServicesConfigurator.cs" />
+    <Compile Include="Interfaces\IMasterSitecoreService.cs" />
     <Compile Include="Repositories\ItemManagement.cs" />
     <Compile Include="Interfaces\IItemManagement.cs" />
     <Compile Include="Models\GlassBase.cs" />
@@ -50,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Glass.Mapper.Sc.93.Core">
+      <Version>5.6.160</Version>
+    </PackageReference>
+    <PackageReference Include="Glass.Mapper.Sc.93.Mvc">
       <Version>5.6.160</Version>
     </PackageReference>
     <PackageReference Include="Sitecore.Kernel">

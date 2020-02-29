@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Glass.Mapper.Sc;
+﻿using Glass.Mapper.Sc;
+using Hackathon.Boilerplate.Foundation.ContentManagement.Interfaces;
 
 namespace Hackathon.Boilerplate.Foundation.ContentManagement.Services
 {
-    public class MasterSitecoreService: SitecoreService,ISitecoreService
+    public class MasterSitecoreService : SitecoreService, IMasterSitecoreService
     {
         public MasterSitecoreService() : base("master")
         {

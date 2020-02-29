@@ -274,7 +274,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Feature\Forms\Hackathon.Boilerplate.Feature.Forms.csproj">
+      <Project>{CC5B3BC6-353D-4F67-8809-65D881184800}</Project>
+      <Name>Hackathon.Boilerplate.Feature.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Foundation\ContentManagement\Hackathon.Boilerplate.Foundation.ContentManagement.csproj">
+      <Project>{FAB89E14-6BBE-49CC-9826-4D2E0C26182C}</Project>
+      <Name>Hackathon.Boilerplate.Foundation.ContentManagement</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\TeamFolder.cs" />
     <Compile Include="Models\TeamInfo.cs" />
     <Compile Include="Models\NewsLetterContactData.cs" />
     <Compile Include="ReadOnly\SaveTeamFields.cs" />

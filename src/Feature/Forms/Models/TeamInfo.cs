@@ -1,4 +1,5 @@
-﻿using Glass.Mapper.Sc.Configuration.Fluent;
+﻿using Glass.Mapper.Sc.Configuration.Attributes;
+using Glass.Mapper.Sc.Configuration.Fluent;
 using Hackathon.Boilerplate.Foundation.ContentManagement.Models.SaudiAirlines.Foundation.Core.BaseClasses;
 
 namespace Hackathon.Boilerplate.Feature.Forms.Models
@@ -6,90 +7,83 @@ namespace Hackathon.Boilerplate.Feature.Forms.Models
     /// <summary>
     /// TeamInfo
     /// </summary>
+    [SitecoreType(TemplateId = "EC4DE6FE-53CC-468F-BF3E-13DFEFFB6A99", AutoMap = true)]
     public class TeamInfo : GlassBase
     {
         /// <summary>
         /// TeamName
         /// </summary>
-        public string TeamName { get; set; }
+        public virtual string TeamName { get; set; }
 
         /// <summary>
         /// LastName
         /// </summary>
-        public string Email { get; set; }
+        public virtual string Email { get; set; }
 
         /// <summary>
         /// LastName
         /// </summary>
-        public string Country { get; set; }
+        public virtual string Country { get; set; }
 
         /// <summary>
         /// FirstMemberName
         /// </summary>
-        public string FirstMemberName { get; set; }
+        public virtual string FirstMemberName { get; set; }
 
         /// <summary>
         /// FirstMemberTwitter
         /// </summary>
-        public string FirstMemberGithub { get; set; }
+        public virtual string FirstMemberGithub { get; set; }
 
         /// <summary>
         /// FirstMemberTwitter
         /// </summary>
-        public string FirstMemberTwitter { get; set; }
+        public virtual string FirstMemberTwitter { get; set; }
 
         /// <summary>
         /// FirstMemberLinkedIn
         /// </summary>
-        public string FirstMemberLinkedIn { get; set; }
+        public virtual string FirstMemberLinkedIn { get; set; }
 
         /// <summary>
         /// SecondMemberName
         /// </summary>
-        public string SecondMemberName { get; set; }
+        public virtual string SecondMemberName { get; set; }
 
         /// <summary>
         /// SecondMemberGithub
         /// </summary>
-        public string SecondMemberGithub { get; set; }
+        public virtual string SecondMemberGithub { get; set; }
 
         /// <summary>
         /// SecondMemberTwitter
         /// </summary>
-        public string SecondMemberTwitter { get; set; }
+        public virtual string SecondMemberTwitter { get; set; }
 
         /// <summary>
         /// SecondMemberLinkedIn
         /// </summary>
-        public string SecondMemberLinkedIn { get; set; }
+        public virtual string SecondMemberLinkedIn { get; set; }
 
         /// <summary>
         /// ThirdMemberName
         /// </summary>
-        public string ThirdMemberName { get; set; }
+        public virtual string ThirdMemberName { get; set; }
 
         /// <summary>
         /// ThirdMemberGithub
         /// </summary>
-        public string ThirdMemberGithub { get; set; }
+        public virtual string ThirdMemberGithub { get; set; }
 
         /// <summary>
         /// ThirdMemberTwitter
         /// </summary>
-        public string ThirdMemberTwitter { get; set; }
+        public virtual string ThirdMemberTwitter { get; set; }
 
         /// <summary>
         /// ThirdMemberLinkedIn
         /// </summary>
-        public string ThirdMemberLinkedIn { get; set; }
-
-        public static SitecoreType<TeamInfo> Load()
-        {
-            var type = new SitecoreType<TeamInfo>();
-            type.TemplateId("{EC4DE6FE-53CC-468F-BF3E-13DFEFFB6A99}");
-            type.AutoMap();
-            return type;
-        }
+        public virtual string ThirdMemberLinkedIn { get; set; }
 
     }
 }

@@ -2,7 +2,9 @@
 using Glass.Mapper.Configuration;
 using Glass.Mapper.IoC;
 using Glass.Mapper.Maps;
+using Glass.Mapper.Sc.Configuration.Fluent;
 using Glass.Mapper.Sc.IoC;
+using Hackathon.Boilerplate.Feature.Forms.Models;
 using IDependencyResolver = Glass.Mapper.Sc.IoC.IDependencyResolver;
 
 namespace Hackathon.Boilerplate.Project.Hackathon.App_Start
@@ -17,15 +19,14 @@ namespace Hackathon.Boilerplate.Project.Hackathon.App_Start
 			return dependencyResolver;
 		}
 
-		public static IConfigurationLoader[] GlassLoaders(){			
-			
-			/* USE THIS AREA TO ADD FLUENT CONFIGURATION LOADERS
+		public static IConfigurationLoader[] GlassLoaders(){
+
+            /* USE THIS AREA TO ADD FLUENT CONFIGURATION LOADERS
              * 
              * If you are using Attribute Configuration or automapping/on-demand mapping you don't need to do anything!
              * 
              */
-
-			return new IConfigurationLoader[]{};
+            return new IConfigurationLoader[]{};
 		}
 		public static void PostLoad(){
 			//Remove the comments to activate CodeFist
