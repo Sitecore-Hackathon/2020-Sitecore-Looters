@@ -67,7 +67,6 @@
   <ItemGroup>
     <None Include="App_Config\Include\Foundation\Serialization\Foundation.Serialization.Base.config" />
     <None Include="App_Config\Include\Foundation\Serialization\Foundation.Serialization.config" />
-    <None Include="App_Config\Include\Foundation\Serialization\Foundation.Serialization.Rainbow.config" />
     <None Include="App_Config\Include\Rainbow.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.config" />
@@ -81,7 +80,7 @@
     <None Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
     <None Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.UI.DeployedContentEditorWarnings.config.disabled" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.UI.IdentityServer.config.disabled" />
+    <None Include="App_Config\Include\Unicorn\Unicorn.UI.IdentityServer.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.zSharedSecret.config.example" />
     <None Include="packages.config" />
   </ItemGroup>
