@@ -18,6 +18,41 @@ Languages:
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Hackathon 2020
+    - ID: "5baf5e8c-b421-4c19-9628-779c645c0604"
+      Hint: Entry Submission Requirements
+      Value: |
+        All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on Saturday March 2nd 2019 at 8PM EST. The modules should be based on <a rel="noopener noreferrer" href="https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx" target="_blank">Sitecore 9.1 (Initial Release)</a> unless your entry is commerce related, in which case you could use Sitecore Experience Platform 9.0 Update-2 with Sitecore Experience Commerce 9.0 Update-3.
+        <ul>
+            <li>Sitecore 9.1 Module (Module install package) unless your entry is commerce related, in which case you could use Sitecore Experience Platform 9.0 Update-2 with Sitecore Experience Commerce 9.0 Update-3.</li>
+            <li>Module Code in the Git source repository (Provided)
+            <ul>
+                <li>Cleanliness of code</li>
+                <li>Commenting where necessary</li>
+                <li>Code Structure</li>
+                <li>Standard coding standards &amp; naming conventions</li>
+            </ul>
+            </li>
+            <li><strong>Precise and Clear Installation Instructions document (1 &ndash; 2 pages)</strong></li>
+            <li><strong>Module usage documentation on Readme.md file on the Git Repository (2 &ndash; 5 pages)</strong>
+            <ul>
+                <li>Module Purpose</li>
+                <li>Module Sitecore Hackathon Category</li>
+                <li>How does the end user use the Module?</li>
+                <li>Screenshots, etc.</li>
+            </ul>
+            </li>
+            <li><strong>Create a 2 &ndash; 10 minutes video explaining the module&rsquo;s functionality (A link to youtube video)</strong>
+            <ul>
+                <li>What problem was solved</li>
+                <li>How did you solve it</li>
+                <li>What is the end result</li>
+            </ul>
+            </li>
+        </ul>
+    - ID: "7e9bb091-016a-493d-95ff-b42a0ac69544"
+      Hint: Winners
+      Type: Treelist
+      Value: "{EF29CF3A-53C4-497B-B8B1-4077C7CE2B6E}"
     - ID: "8d1363d8-9150-4b80-b8d2-9a3b429f4325"
       Hint: Content
       Value: |
@@ -25,7 +60,28 @@ Languages:
         <p>Teams that have signed up by <strong>6 pm EST February 14, 2020</strong> will have the opportunity to participate in the contest. Eligible teams will have 24 hours &mdash; starting <strong>Friday February 28th 2020 at 8PM EST</strong> and ending <strong>Saturday February 29th 2020 at 8PM EST</strong>&nbsp;&ndash; to build and submit a Sitecore module best implementing the idea for the Hackathon, as determined by our panel of judges. The idea(s) will be announced an hour before the Hackathon starts on February 28th.</p>
         <br class="t-last-br" />
         <br class="t-last-br" />
+    - ID: "b71341a3-ac55-4880-8342-ad6d0e62a7ab"
+      Hint: Judges
+      Type: Treelist
+      Value: |
+        {7F026296-D522-4762-B216-9A771EABDF23}
+        {F0947923-260A-42B9-87D3-855EC36643AC}
+    - ID: "f0046f4b-dc17-466a-8c8e-0aba3b6fce0b"
+      Hint: Prizes
+      Value: |
+        The winning teams will each receive a $100 Amazon gift card per team member, making the total $300 per team for a three person team. The Amazon gift cards will be emailed to the email addresses on file no later than 10 days after the winning team is announced. If Amazon gift cards are not available in the region, alternate arrangements will be made.
+        <p>We will showcase your company logo and/or your team photo on this website.</p>
+        <p><strong>Bonus: <a rel="noopener noreferrer" href="http://www.teamdevelopmentforsitecore.com/" target="_blank">Hedgehog</a> is sponsoring prizes for this year&rsquo;s Hackathon. Category winners will each receive 1 FREE license for TDS and 1 server license with 2 user count for Avtor per winning member of the winning team!</strong></p>
+        <p><strong>Bonus: <a rel="noopener noreferrer" href="https://www.brimit.com/" target="_blank">Brimit</a> is also sponsoring prizes this year to entice more teams to join the Sitecore Hackathon. Each winning member of the team will receive a FREE user registration for the <a rel="noopener noreferrer" href="https://www.sugcon.eu/" target="_blank">SUGCON EU 2020</a> worth &euro;350 per each member. </strong></p>
+        <ol>
+            <li>No purchase necessary.</li>
+            <li>Must 21 years or older at time of entry.</li>
+            <li>Additional terms, conditions and restrictions apply.</li>
+        </ol>
     - ID: "f8f0dea8-3dd4-402b-807e-079e4343a47c"
       Hint: Topics
       Type: Treelist
-      Value: 
+      Value: |
+        {2323AF69-4BF6-4B0E-BBA7-D48C8D93C24F}
+        {0E13E0B8-D8D5-43CE-A041-58EAAD97F8B6}
+        {7F46F334-1A5E-4809-A90A-E7130D82468A}
