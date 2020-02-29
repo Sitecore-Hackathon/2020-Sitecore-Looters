@@ -5,7 +5,7 @@ using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.IoC;
 using IDependencyResolver = Glass.Mapper.Sc.IoC.IDependencyResolver;
 
-namespace Hackathon.Boilerplate.Project.App_Start
+namespace Hackathon.Boilerplate.Project.Hackathon.App_Start
 {
     public static  class GlassMapperScCustom
     {

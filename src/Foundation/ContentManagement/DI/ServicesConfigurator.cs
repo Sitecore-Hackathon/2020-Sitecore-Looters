@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Glass.Mapper.Sc;
+﻿using Glass.Mapper.Sc;
+using Hackathon.Boilerplate.Foundation.ContentManagement.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Hackathon.Boilerplate.Foundation.ContentManagement.Services
+namespace Hackathon.Boilerplate.Foundation.ContentManagement.DI
 {
-    public static class CoreServicesConfigurator
+    public static class ServicesConfigurator
     {
         /// <summary>
         /// This method gets called by the runtime. Use this method to add services to the container.

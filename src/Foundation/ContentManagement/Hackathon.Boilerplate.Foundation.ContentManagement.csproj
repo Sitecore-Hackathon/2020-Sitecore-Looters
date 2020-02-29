@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DI\MasterSitecoreService.cs" />
+    <Compile Include="DI\ServicesConfigurator.cs" />
     <Compile Include="Repositories\ItemManagement.cs" />
     <Compile Include="Interfaces\IItemManagement.cs" />
     <Compile Include="Models\GlassBase.cs" />
@@ -57,5 +57,8 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\ContentManagement\Hackathon.Boilerplate.Foundation.ContentManagement.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
