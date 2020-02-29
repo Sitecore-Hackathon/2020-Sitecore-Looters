@@ -5,6 +5,12 @@ Template: "ec4de6fe-53cc-468f-bf3e-13dfeffb6a99"
 Path: /sitecore/content/Hackathon/Hackathon/Data/Teams/2019/test101
 DB: master
 SharedFields:
+- ID: "74cc77f5-436d-4b0d-82a1-78be6ff427bd"
+  Hint: FirstMemberName
+  Value: Amer
+- ID: "9ddbcc34-ee63-47b2-8826-ffcc26aed015"
+  Hint: SecondMemberName
+  Value: Khalil
 - ID: "f1dc7200-d3b0-403c-8319-cd4f0a8ac73a"
   Hint: TeamName
   Value: Team COCO
