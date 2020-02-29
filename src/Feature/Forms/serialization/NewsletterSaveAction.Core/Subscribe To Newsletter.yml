@@ -1,0 +1,72 @@
+﻿---
+ID: "0ce1afcf-688d-4e55-9fbf-d29f792588df"
+Parent: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
+Template: "5f2c442f-2554-4c80-b1d9-2195fa6168b1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/Subscribe To Newsletter
+DB: core
+SharedFields:
+- ID: "5e642935-a6fc-48e9-b039-fe1136ced488"
+  Hint: Theme
+  Value: Harvard
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5A7CF08C-3647-4F56-B189-9E8C0531FBAF}">
+        <r
+          id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}"
+          par="IsLicenceCheckDisabled&amp;PageCodeScriptFileName=%2Fsitecore%2Fshell%2Fclient%2FApplications%2FFormsBuilder%2FLayouts%2FActions%2FSubscribeToNewsletter.js&amp;PageCodeTypeName&amp;SpeakCoreVersion=%7B3F937240-C16E-4229-9641-4CE5B4CB4ABA%7D&amp;AssetsLoadingType"
+          ph="Page.Code"
+          uid="{CA0B6EBE-3A88-40B4-85F0-840A0FBB4B52}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="Id=HeaderTitle&amp;IsVisible=0"
+          ph="Page.Body"
+          uid="{DBDF2E0D-019E-4D8A-984D-CCFEFADD10F3}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="Id=HeaderSubtitle&amp;IsVisible=0"
+          ph="Page.Body"
+          uid="{847317BA-D78F-4D30-834E-6D1073964541}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="Id=ValueNotInListText&amp;IsVisible=0"
+          ph="Page.Body"
+          uid="{2D38DE50-F7CA-4538-A7F2-C2A90CF9F4D2}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Tooltip&amp;IsVisible=1&amp;ContentHorizontalAlignment&amp;ShowBorder&amp;UsePadding&amp;PaddingType&amp;RequiresRead&amp;RequiresWrite&amp;AccessKey&amp;ConfigurationItem&amp;IsButtonGroup&amp;Id=MainBorder&amp;Behaviors"
+          ph="Page.Body"
+          uid="{40453C3E-BD26-440B-8C57-65963B076A25}" />
+        <r
+          id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}"
+          par="Tooltip&amp;IsVisible=1&amp;FormData&amp;BindingTarget&amp;AccessKey&amp;ConfigurationItem=%7B14C12E95-E6E1-48E9-AF22-F85A55488591%7D&amp;Id=MapContactForm&amp;FieldDefinitionType=%7B167CCD4C-34CE-4557-985B-0915D86B3D99%7D&amp;FieldDefinitionRoot&amp;FieldSections&amp;FieldDefinitionDatabase&amp;ExcludedFields&amp;Behaviors&amp;FieldsLayout=%7B0F6F5EFF-73B4-4597-A232-F50DF253514E%7D&amp;SectionVisualization&amp;VisualStyle"
+          ph="MainBorder.Content"
+          uid="{3C618B69-93CE-46D2-B896-61FF09FD207A}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Subscribe To Newsletter
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170330T100042Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: Subscribe To Newsletter

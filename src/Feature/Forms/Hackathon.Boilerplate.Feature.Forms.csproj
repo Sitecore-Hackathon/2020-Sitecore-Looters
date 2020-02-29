@@ -63,6 +63,7 @@
     <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\SubscribeToNewsletter.js" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App_Config\Include\Feature\Forms\Hackathon.Boilerplate.Feature.Forms.Serialization.config" />
     <None Include="App_Config\Include\Feature\Forms\Hackathon.Boilerplate.Feature.Forms.config" />
   </ItemGroup>
   <ItemGroup />

@@ -1,0 +1,14 @@
+﻿---
+ID: "d1f4eec5-9e3a-4715-b971-146b5932145e"
+Parent: "067abeae-8ab8-4383-9fa0-83e323acc8ac"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/Forms/Hackathon/Hackathon/Newsletter-form/SubscriptionPage/Submit Button/SubmitActions"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T053207Z
