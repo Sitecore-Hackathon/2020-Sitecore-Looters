@@ -68,17 +68,17 @@ namespace Hackathon.Boilerplate.Feature.Forms.SaveActions
                     SetPersonalInformation(GetValue(firstNameField), GetValue(lastNameField), contact, client);
                     if (contact.Personal() == null)//new Contact
                     {
-                        HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("AddNewContactPage"));
+                        HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("NewsLetter.ContactAddedPage"));
                     }
                     else //Update Contact
                     {
-                        HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("UpdateContactPage"));
+                        HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("NewsLetter.ContactUpdatedPage"));
                     }
                     SetEmail(GetValue(emailField), contact, client);
                     client.Submit(); // submit to ExperienceProfile
                     #region Save to contact to Contact list
                     SubscriptionService service = (SubscriptionService)ServiceLocator.ServiceProvider.GetService(typeof(ISubscriptionService));
-                    Guid listId = new Guid(Settings.GetSetting("ContactListID"));// Get your Contact list ID
+                    Guid listId = new Guid(Settings.GetSetting("NewsLetter.ListID"));// Get your Contact list ID
                     Guid contactId = new Guid(contact.Id.ToString());
                     service.Subscribe(listId, contactId);
                     #endregion
@@ -87,7 +87,7 @@ namespace Hackathon.Boilerplate.Feature.Forms.SaveActions
                 catch (Exception ex)
                 {
                     Log.Error("Hackathon.Boilerplate.Feature.Forms", ex,this);
-                    HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("ErrorPage"));
+                    HttpContext.Current.Items["NextFormPage"] = Guid.Parse(Settings.GetSetting("NewsLetter.ErrorPage"));
                     return false;
                 }
             }
